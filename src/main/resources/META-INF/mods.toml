@@ -1,0 +1,37 @@
+# This is the mod's configuration file for Forge.
+modLoader = "javafml" # Mandatory
+# A version range for the loader. Any Forge version for 1.20.1 will work.
+# 47 is the version number for Forge on Minecraft 1.20.1.
+loaderVersion = "[47,)" # Mandatory
+# The license for your mod.
+license = "All Rights Reserved"
+# A list of mods - in this case, just ours.
+[[mods]] # Mandatory
+# The mod ID. This MUST match the MOD_ID in your main mod class.
+modId = "sololeveling" # Mandatory
+# The version number of your mod.
+version = "1.0.0" # Mandatory
+# A friendly display name for your mod in the mods list.
+displayName = "Solo Leveling: Shadow Monarch" # Mandatory
+# A description of your mod.
+description = '''
+Arise dead mobs and command them as your loyal shadow army. An admin-only mod inspired by Solo Leveling.
+'''
+
+# Dependencies for your mod.
+# This tells Forge that your mod needs Minecraft and Forge to run.
+[[dependencies.sololeveling]]
+modId = "forge"
+mandatory = true
+# The version of Forge your mod needs. [47,) means 47 or higher.
+versionRange = "[47,)"
+ordering = "NONE"
+side = "BOTH"
+
+[[dependencies.sololeveling]]
+modId = "minecraft"
+mandatory = true
+# The version of Minecraft your mod needs. [1.20.1,1.21) means it works for all 1.20.x versions.
+versionRange = "[1.20.1,1.21)"
+ordering = "NONE"
+side = "BOTH"

@@ -1,0 +1,14 @@
+{
+  "arise": {
+    "subtitle": "sounds.sololeveling.arise",
+    "sounds": [
+      "sololeveling:arise"
+    ]
+  },
+  "summon": {
+    "subtitle": "sounds.sololeveling.summon",
+    "sounds": [
+      "sololeveling:summon"
+    ]
+  }
+}

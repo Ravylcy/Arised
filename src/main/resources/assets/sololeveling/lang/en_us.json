@@ -1,0 +1,17 @@
+{
+  "key.category.sololeveling": "Solo Leveling",
+  "key.sololeveling.arise": "Arise",
+  "key.sololeveling.open_army_gui": "Open Shadow Army",
+  "key.sololeveling.cycle_stance": "Cycle Shadow Stance",
+
+  "gui.sololeveling.shadow_army": "Shadow Army",
+  "gui.sololeveling.summon": "Summon",
+  "gui.sololeveling.rename": "Rename",
+  "gui.sololeveling.release": "Release",
+  "gui.sololeveling.confirm": "Confirm",
+  "gui.sololeveling.recall": "Recall",
+  "gui.sololeveling.recall_all": "Recall All Shadows",
+
+  "sounds.sololeveling.arise": "Shadow Arises",
+  "sounds.sololeveling.summon": "Shadow Summoned"
+}
